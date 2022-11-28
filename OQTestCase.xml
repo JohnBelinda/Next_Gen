@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+
+	<listeners>
+
+		<listener class-name="testCase.NextGenMasterTestExecution" />
+
+	</listeners>
+
+	<test verbose="2" name="CompanyDetails OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="CompanyDetails OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- CompanyDetails OQ -->
+
+	<test verbose="2" name="BranchDetails OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="BranchDetails OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- BranchDetails OQ -->
+
+	<test verbose="2" name="Country Details OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Country Details OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Country Details OQ -->
+
+	<test verbose="2" name="State Details OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="State Details OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- State Details OQ -->
+
+
+	<test verbose="2" name="Lab Details OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Lab Details OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Lab Details OQ -->
+
+	<test verbose="2" name="MasterData OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="MasterData OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- MasterData OQ -->
+
+
+	<test verbose="2" name="Sub Master Data OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Sub Master Data OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Sub Master Data OQ -->
+
+	<test verbose="2" name="Employee OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Employee OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Employee OQ -->
+
+	<test verbose="2" name="Client Details OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Client Details OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Client Details OQ -->
+
+	<test verbose="2" name="Client Contacts OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Client Contacts OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Client Contacts OQ -->
+
+	<test verbose="2" name="Manufacturer Details OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Manufacturer Details OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Manufacturer Details OQ -->
+
+	<test verbose="2" name="Manufacturer Contacts OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Manufacturer Contacts OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Manufacturer Contacts OQ -->
+
+	<test verbose="2" name="Supplier Details OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Supplier Details OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Supplier Details OQ -->
+
+	<test verbose="2" name="Supplier Contacts OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Supplier Contacts OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Supplier Contacts OQ -->
+
+
+	<test verbose="2" name="Parameter OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Parameter OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Parameter OQ -->
+
+	<test verbose="2" name="Parameter Group OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Parameter Group OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Parameter Group OQ -->
+
+	<test verbose="2" name="Parameter Relation OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Parameter Relation OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Parameter Relation OQ -->
+
+	<test verbose="2" name="Test Details OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Test Details OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Test Details OQ -->
+
+	<test verbose="2" name="Test Parameters OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Test Parameters OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Test Parameters OQ -->
+
+
+	<test verbose="2" name="Test Group OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Test Group OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Test Group OQ -->
+
+
+	<test verbose="2" name="Unit Conversion OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Unit Conversion OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Unit Conversion OQ -->
+
+	<test verbose="2" name="Sampling Point OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Sampling Point OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Sampling Point OQ -->
+
+	<test verbose="2" name="Sampling Point Setup OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Sampling Point Setup OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Sampling Point Setup OQ -->
+
+
+	<test verbose="2" name="Item Details OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Item Details OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Item Details OQ -->
+
+	<test verbose="2" name="Item Setup OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Item Setup OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Item Setup OQ -->
+
+
+	<test verbose="2" name="QC Sample Details OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="QC Sample Details OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- QC Sample Details OQ -->
+
+
+	<test verbose="2" name="QC Sample Setup OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="QC Sample Setup OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- QC Sample Setup OQ -->
+
+
+	<test verbose="2" name="Calibration Standard OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Calibration Standard OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Calibration Standard OQ -->
+
+	<test verbose="2" name="Calibration Standard Setup OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Calibration Standard Setup OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Calibration Standard Setup OQ -->
+
+
+
+	<test verbose="2" name="Proficiency Test Details OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Proficiency Test Details OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Proficiency Test Details OQ -->
+
+	<test verbose="2" name="Proficiency Test Setup OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Proficiency Test Setup OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Proficiency Test Setup OQ -->
+
+
+</suite> <!-- Default suite -->

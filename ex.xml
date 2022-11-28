@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+
+
+	<listeners>
+		<listener class-name="testCase.NextGenMasterTestExecution" />
+	</listeners>
+
+	<test verbose="2" name="Proficiency Test Setup OQ">
+		<groups>
+			<run>
+				<include name="OpenBrowser" />
+				<include name="Proficiency Test Setup OQ" />
+				<include name="CloseBrowser" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCase.NextGenMasterTestExecution">
+			</class>
+		</classes>
+	</test> <!-- Proficiency Test Setup OQ -->
+</suite> <!-- Default suite -->
+
+
